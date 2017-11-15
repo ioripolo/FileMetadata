@@ -1,0 +1,10 @@
+extend layout
+
+block content
+  div.container
+    h1.header= 请上传文件
+      form(role="form", action="/file", method="post", class="form-horizontal", enctype="multipart/form-data")
+        div.form-group
+          input(type="file", name="userFile")
+        div.form-group
+          button(type='submit', class="btn btn-primary btn-lg") 上传
