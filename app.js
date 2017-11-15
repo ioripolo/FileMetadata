@@ -23,20 +23,7 @@ app.get("/", function(req, res) {
       0: '访问页面 ' + appURL + '/upload 来上传文件'
     },
     result: {
-      0: '[\n\
-  {\n\
-    \"url\": \"http://epilepsyu.com/wp-content/uploads/2013/03/dog-open-mouth.jpg\",\n\
-    \"snippet\": \"Do you have a dog with epilepsy? - EpilepsyU\",\n\
-    \"thumbnail\": \"https://tse4.mm.bing.net/th?id=OIP.TkkEm-k2O0C2QS8udUlLhQEcEs&pid=Api\",\n\
-    \"context\": \"http://epilepsyu.com/blog/do-you-have-a-dog-with-epilepsy/\"\n\
-  },\n\
-  {\n\
-    \"url\": \"http://thehappypuppysite.com/wp-content/uploads/2016/02/steal3.jpg\",\n\
-    \"snippet\": \"How To Stop Your Dog Stealing - The Happy Puppy Site\",\n\
-    \"thumbnail\": \"https://tse2.mm.bing.net/th?id=OIP.vjRYcVfxIpGOq0kFkPlohwEsC4&pid=Api\",\n\
-    \"context\": \"http://thehappypuppysite.com/how-to-stop-your-dog-stealing/\"\n\
-  }\n\
-]'
+      0: '{"name":"novafis-VS2010-CSharp-master.zip","size":237404,"encoding":"7bit","mimetype":"application/x-zip-compressed"}'
     }
   });
 });
